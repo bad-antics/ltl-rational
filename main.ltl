@@ -1,0 +1,15 @@
+// ltl-rational/main.ltl
+//
+// Rational-number type with continued-fraction rounding.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-rational v0.1.0")
+    io::println("Rational-number type with continued-fraction rounding.")
+    0
+}
